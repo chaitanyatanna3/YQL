@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">YQL</string>
+    <string name="action_settings">Settings</string>
+    <string name="looking">What are you looking for?</string>
+    <string name="zip">Zipcode</string>
+    <string name="current">Current Location</string>
+    <string name="search">Search</string>
+    <string name="title">Title</string>
+    <string name="address">Address</string>
+    <string name="phone">Phone: 123-456-7890</string>
+    <string name="distance">Distance: 1.1 miles</string>
+</resources>
