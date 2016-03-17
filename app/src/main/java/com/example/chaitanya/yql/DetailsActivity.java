@@ -32,7 +32,7 @@ public class DetailsActivity extends AppCompatActivity implements OnMapReadyCall
 
         webView = (WebView) findViewById(R.id.webView);
 
-        Results result = getIntent().getParcelableExtra("result");
+        result = getIntent().getParcelableExtra("result");
         webView.loadUrl(result.businessURL);
 
         if(googleServicesAvailable()){

@@ -55,6 +55,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
                         .addConnectionCallbacks(MainActivity.this)
                         .addOnConnectionFailedListener(MainActivity.this)
                         .build();
+                mGoogleApiClient.connect();
             }
         });
 
